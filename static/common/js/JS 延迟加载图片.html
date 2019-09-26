@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--引用jquery和jquery.lazyload.js到你的页面-->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+</head>
+<body>
+<!--为图片加入样式lazy（也可以不加 lazy 样式，加上可以区分哪些需要延时加载）  图片路径引用方法用data-original-->
+<img class="lazy" src="默认图片" data-original="http://bpic.588ku.com/back_pic/01/03/42/46f2926afb08f42fa02ffdf91d950f09.jpg">
+<div style="width: 100%; height: 500px;"></div>
+<img class="lazy" src="http://via.placeholder.com/350x1000" data-original="http://bpic.588ku.com/element_origin_min_pic/14/03/20/1656e6947e7de08.jpg">
+<div style="width: 100%; height: 500px;"></div>
+<img class="lazy" src="http://via.placeholder.com/500x150" data-original="http://bpic.588ku.com/element_origin_min_pic/00/03/14/225688c847ae4db.jpg">
+<div style="width: 100%; height: 500px;"></div>
+<img class="lazy" src="http://via.placeholder.com/550x650" data-original="http://bpic.588ku.com/element_origin_min_pic/16/06/05/0957537c5ec0b99.jpg">
+<div style="width: 100%; height: 500px;"></div>
+<img class="lazy" src="http://via.placeholder.com/850x650" data-original="http://bpic.588ku.com/element_origin_min_pic/20/04/20/165716cff16b1d2.jpg">
+<div style="width: 100%; height: 500px;"></div>
+<!--默认加载一个占位符图片，http://via.placeholder.com/专门设置占位符的网站-->
+<img class="lazy" src="http://via.placeholder.com/750x550" data-original="http://bpic.588ku.com/element_origin_min_pic/16/07/11/235783bf3aa6581.jpg">
+
+<script type="text/javascript" charset="utf-8">
+    $(function() {
+        $("img.lazy").lazyload({
+            placeholder : "http://via.placeholder.com/500x1000", //用图片提前占位，即为默认图片意思，统一设置
+            // placeholder,值为某一图片路径.此图片用来占据将要加载的图片的位置,待图片加载时,占位图则会隐藏
+            effect: "fadeIn", // 载入使用何种效果
+            // effect(特效),值有show(直接显示),fadeIn(淡入),slideDown(下拉)等,常用fadeIn
+            threshold: 200, // 提前开始加载
+            // threshold,值为数字,代表页面高度.如设置为200,表示滚动条在离目标位置还有200的高度时就开始加载图片,可以做到不让用户察觉
+//            event: 'click',  // 事件触发时才加载，滚到到图片的位置后，还要通过click或hover事件来唤醒图片的加载
+            // event,值有click(点击),mouseover(鼠标划过),sporty(运动的),foobar(…).可以实现鼠标莫过或点击图片才开始加载,后两个值未测试…
+//            container: $("#container"),  // 对某容器中的图片实现效果
+            // container,值为某容器.lazyload默认在拉动浏览器滚动条时生效,这个参数可以让你在拉动某DIV的滚动条时依次加载其中的图片
+            failurelimit : 10 // 图片排序混乱时
+            // failurelimit,值为数字.lazyload默认在找到第一张不在可见区域里的图片时则不再继续加载,但当HTML容器混乱的时候可能出现可见区域内图片并没加载出来的情况,failurelimit意在加载N张可见区域外的图片,以避免出现这个问题.
+        });
+    });
+</script>
+</body>
+</html>

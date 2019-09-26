@@ -1,0 +1,241 @@
+<!-- pc手动签署 -->
+
+
+
+
+  
+
+
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <base href="http://test.api.fabigbig.com:8888/api/">
+    <title>文件签署</title>    
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="X-UA-Compatible" content="IE=7,9,10,11,edge" /> 	 
+	<meta http-equiv="keywords" content="电子合同，电子签名，电子签章，电子签约，网上签订合同，法大大，在线签署，电子存证，电子文件签署，司法鉴定，SaaS平台">
+	<meta http-equiv="description" content="法大大是国内领先的电子合同/电子签名SaaS平台，目前主要为金融、旅游、O2O、B2B等企业及个人用户提供电子文件签署及存证服务，同时整合提供司法鉴定、网络仲裁和律师服务。法大大目前已通过ISO27001安全认证并获得众安保险承保。">
+	
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible"content="IE=9; IE=8; IE=7; IE=EDGE">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta name="Description" content="" />
+<meta name="Keywords" content="" />
+<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo="> 
+ 
+
+	<link rel="stylesheet" href="libs/css/desktop_new.css?0.26877834295899852.5.4.0">
+ 
+  </head>
+  <body>
+    
+      <div class="header-top bg-config-style">
+        <img src="portal/null-2.fabigbig" style="max-height:38px;margin-left: 15px"/>
+        
+    </div>
+    
+    
+        <div class="signature-wrap">
+    
+    
+          <!--需要关闭左边的展示页面页码可在signature-list后面添加signature-list-close-->
+            
+                    <div id="rewiewpanel" class="signature-list">
+            
+            
+              <a id="rewiewtab" class="hover icon-shrink"></a>
+              <div class="signature-scrollbar">
+                  <div class="signature-list-tit">
+                      <h3>文档缩略图</h3>
+                      <p>页数:
+                          <span>3</span>
+                      </p>
+                  </div>
+                  <ul id="reviewlist" class="signature-show-list">
+
+                  </ul>
+              </div>
+          </div>
+          <!--签合同模块-->
+          <div class="signature-center">
+              <p style="overflow:hidden" class="contract-title">家长协议</p>
+              <div class="wid-840">
+                  <!--回顶部的图标-->
+                  <div id="totop" class="icon-bottom"></div>
+                  <div id="tobottom" class="icon-top"></div>
+                  <!--拖动章的时候添加动画样式sign-animate和实边move-add-border-->
+                  <div class="signature-con-scrollbar">
+                      <div id="container" class="signature-con">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!--右边签章模块-->
+          
+              <div class="stamp-module">
+          
+          
+              <div class="signature-list-tit">
+                  
+                  
+                    <h3>定位签署</h3>
+                    <p>
+                    <span>请确认合同后，<em>点击确认签署</em>进行签署</span>
+                    </p> 
+                  
+              </div>
+              <div id="signpanel" class="com-sign-img">
+
+              </div>
+              <ul class="hetong-list">
+
+              </ul> 
+              <div class="sign-btn-box">
+                  <div class="sign-btn-box-con">
+                    
+                    <a id="confirmSubmit" class="sign-btn fontbg-config-style">
+                        确认签署
+                    </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--新增加by-xiatianlin 2018-10-24-->
+      <div class="footer-bottom status01">
+          <div class="footer-txt">
+              <p>
+                
+                  <img src="libs/images/logo_3.png" class="fdd-logo" alt="法大大logo" />
+                  深圳法大大网络科技有限公司
+                
+              </p>
+              <p>第<span id="page">1</span>/3页</p>
+              <p>
+                
+              </p>
+          </div>
+      </div>
+      <!--拒签弹窗-->
+      
+      
+      
+        <!--验证码签署弹窗-->
+        <div id="smspanel" style="display:none" class="com-mark-pop">
+            <div class="com-dialog-box">
+                <p class="com-dialog-tit">确认签署<i class="icon-problem">?<span class="show-pop">请确保接收校验码的手机通讯正常, 没有对法大大下发的短信设置屏蔽</span></i><i class="fdd-hide icon-dialog-close"></i></p>
+                <div class="com-dialog-con">
+                    <ul class="form-list-box">
+                        <li>绑定手机:199****2404</li>
+                        <!--不可点击yanzheng-ma-default-->
+                        <li><input AUTOCOMPLETE="off" type="text" id="smsval" maxlength="6" class="yanzheng-input" placeholder="手机验证码" /><span data-type="1" class="smsbtn link">获取验证码</span></li>
+                        <li><span class="txt-gray">收不到？</span><a data-type="2" class="txt-blue voice">获取语音验证码</a></li>
+                    </ul>
+                    <div class="com-dialog-btn-box">
+                        <a class="commit sign-btn fontbg-config-style">确认</a>
+                        <a class="fdd-hide">取消</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+      
+      
+  <input type="hidden" value="http://www.baidu.com" id="returnUrl"/>
+  <input type="hidden" id="download_url" value="https://testapi.fadada.com:8443/api//getdocs.action?app_id=402186&timestamp=20190702111311&v=2.0&msg_digest=RjlBMTExNDFDMzdDNjZBRUNDNzQ0M0E4MEY4RkU1MkZGMUNGOUNGNg==&send_app_id=&transaction_id=654321012"/>
+	<input type="hidden" id="viewpdf_url"   value="https://testapi.fadada.com:8443/api//viewdocs.action?app_id=402186&timestamp=20190702111311&v=2.0&msg_digest=RjlBMTExNDFDMzdDNjZBRUNDNzQ0M0E4MEY4RkU1MkZGMUNGOUNGNg==&send_app_id=&transaction_id=654321012"/>
+	<object classid="clsid:31D9C2D1-3BEC-4B25-87D6-16F6C3D75DE6" id="SZCAOcx" style="display:none;"></object>
+	<object classid="clsid:B0EF56AD-D711-412D-BE74-A751595F3633" id="JITComVCTKEx" style="display:none;"></object>
+  <script>
+    if ('0'==='5') {
+      (function detectmob() {
+        if( navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i) ){
+          document.getElementsByTagName('body')[0].innerHTML = '<style>img{width:40px}body,html{margin: 0;padding: 0;}#h5 {margin-top: 30%;text-align: center}#h5 div {margin-top: 30px;font-size: 18px;}</style><div id="h5"><img id="iScrollContent" src="libs/images/cha.png"><div>合同已被拒签</div></div>'
+        } else {
+          document.getElementsByTagName('body')[0].innerHTML = '<style>img{width:40px}body,html{margin: 0;padding: 0;}#pc .fddlogo {background: #f5f5f5;padding: 10px;border-bottom: 1px solid #ccc;border-top: 1px solid #ccc;}#pc .mid {margin-top: 60px;text-align: center;font-size: 24px;}#pc .mid div {margin-top: 24px;font-size: 18px;}</style><div id="pc"><div class="fddlogo"><img src="libs/images/logo_3.png"></div><div class="mid"><img src="libs/images/cha.png"><div>合同已被拒签</div></div></div>'
+        } 
+      }())
+    }
+  </script>
+  <script type="text/javascript">
+    var FDD = {};
+    FDD['baseUrl'] = 'api';
+    FDD['download_url'] = '';
+    FDD['viewpdf_url'] ='';
+    FDD['token'] = '4lJHgXAdrdF36wy032UXtg==';
+    FDD['contractSignedBean.id'] = '84708712';
+    FDD['contractSignedBean.x'] = '';//x坐标 多个以逗号隔开
+    FDD['contractSignedBean.y'] = '';//y坐标 多个以逗号隔开
+    FDD['contractSignedBean.pdfno'] = '';
+    FDD['contractSignedBean.signids'] = '';//签名ids 逗号隔开  
+    FDD['contractSignedBean.filename'] = '4e22546c4f2e42ea8cba66af05f906cc';//文件名称
+    FDD['client_id'] = '';
+    FDD['transaction_id'] = '654321012';
+    FDD['app_id'] = '402186';
+    FDD['accountId'] = '156196790403662';
+    FDD['extSignId'] = '2c9082816b8d497c016bb0ac03c867e4';
+    FDD['accountEmail'] = 'de4302d6352c4be5a229bd24c030002b@fdd.com';
+    FDD['signatureId'] ='4587413';
+    FDD['signatureBase64'] ='data:image/png;base64,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'; //随机签章图片
+    FDD['recoveryUrl'] = '';
+    FDD['fddsms'] = '';
+    FDD['searchStatus'] = '0';
+    FDD['searchMsg'] = '在合同中未检索到指定的签章定位关键字[签字]';// 搜索结果描述 用于提示用户 
+    FDD['operateTime'] = '';
+    FDD['operateIp'] = '';
+    FDD['contractId'] = '561805679';// 合同ID
+    FDD['contract_id'] = '12345678955567';// 合同编号
+    FDD['contractSignedBean.signKeyword'] = '签字';
+    FDD['contractSignedBean.keywordStrategy'] = '2';
+    FDD['proxyId'] = '';
+    FDD['isMsgSecondCertified'] = '1'; 
+    FDD['searchlocations'] = '[{pagenum:2, x:122.66400146484375, y:137.3000030517578, xwidth:595.3200073242188, yheight:841.9199829101562}]';
+    FDD['mobile'] = '199****2404';
+    FDD['fileUrl'] =   FDD['baseUrl']+'/'+'4e22546c4f2e42ea8cba66af05f906cc';
+    FDD['fileCount'] = '3';
+    FDD['accountType'] = '1';
+    FDD['suffix'] = '.fbb';
+    FDD['fddTcid'] = '238e13e648894bd79fa4f162e92bac40';
+    FDD['return_url'] = 'http://www.baidu.com';
+    FDD['download_url'] = 'https://testapi.fadada.com:8443/api//getdocs.action?app_id=402186&timestamp=20190702111311&v=2.0&msg_digest=RjlBMTExNDFDMzdDNjZBRUNDNzQ0M0E4MEY4RkU1MkZGMUNGOUNGNg==&send_app_id=&transaction_id=654321012';
+    FDD['viewpdf_url'] = 'https://testapi.fadada.com:8443/api//viewdocs.action?app_id=402186&timestamp=20190702111311&v=2.0&msg_digest=RjlBMTExNDFDMzdDNjZBRUNDNzQ0M0E4MEY4RkU1MkZGMUNGOUNGNg==&send_app_id=&transaction_id=654321012';
+    FDD['proxyId']='';
+    FDD['reject_url'] = '';
+    FDD['checkQcodeSign'] ='';
+    FDD['isGetZhimaUrl'] = '';
+    FDD['signVerifyWay'] = '';
+    FDD['verifyWayFlag'] = '';
+    FDD['themeColor'] = '#2994FF' || '#2994ff';
+    FDD['btnFontColor'] = '#FFFFFF' || '#ffffff';
+    FDD['barBgColor'] = '#FFFFFF' || '#ffffff';
+    window.markUUID =  FDD['markUUID'] = 'b6e571ab4fd1463797b57c96504f90f0';
+  </script>
+  
+  <script src="libs/js/base/require.js" data-main="libs/js/dist/desktop.js?v=0.26877834295899852.5.4.0"></script>
+  <script type="text/javascript" src="libs/js/utils/configStyle.min.js"></script>
+    
+  <script type="text/javascript">
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "//hm.baidu.com/hm.js?e1e828ede8f023b510da95de235d8b96";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	 
+	</script>	
+ 
+
+  <script>
+    window.onload = function(){
+    
+    FDD['return_url'] = document.getElementById('returnUrl').value;
+    FDD['download_url'] = document.getElementById('download_url').value;
+      FDD['viewpdf_url'] =document.getElementById('viewpdf_url').value;
+  }
+  </script>
+</body>
+</html>

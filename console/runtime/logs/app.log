@@ -1,0 +1,2096 @@
+2019-04-25 13:34:11 [-][-][-][error][yii\console\UnknownCommandException] yii\console\UnknownCommandException: Unknown command "hello". in E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('hello', Array)
+#1 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\WWW\lts\yii(23): yii\base\Application->run()
+#3 {main}
+2019-04-25 13:34:11 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\WWW\\lts\\'
+    'PHP_SELF' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_NAME' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_FILENAME' => 'E:\\WWW\\lts\\yii'
+    'PATH_TRANSLATED' => 'E:\\WWW\\lts\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556170450.9903
+    'REQUEST_TIME' => 1556170450
+    'argv' => [
+        0 => 'E:\\WWW\\lts\\yii'
+        1 => 'hello'
+        2 => '-m=hello'
+    ]
+    'argc' => 3
+]
+2019-04-25 13:37:52 [-][-][-][error][yii\console\UnknownCommandException] yii\console\UnknownCommandException: Unknown command "hello/list". in E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('hello/list', Array)
+#1 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\WWW\lts\yii(23): yii\base\Application->run()
+#3 {main}
+2019-04-25 13:37:52 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\WWW\\lts\\'
+    'PHP_SELF' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_NAME' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_FILENAME' => 'E:\\WWW\\lts\\yii'
+    'PATH_TRANSLATED' => 'E:\\WWW\\lts\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556170672.1135
+    'REQUEST_TIME' => 1556170672
+    'argv' => [
+        0 => 'E:\\WWW\\lts\\yii'
+        1 => 'hello/list'
+    ]
+    'argc' => 2
+]
+2019-04-25 14:05:17 [-][-][-][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'common\models\Crontab' in file: E:\WWW\lts\common/models/Crontab.php. Namespace missing? in E:\WWW\lts\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('common\\models\\C...')
+#1 E:\WWW\lts\console\controllers\CrontabController.php(23): spl_autoload_call('common\\models\\C...')
+#2 [internal function]: console\controllers\CrontabController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('crontab/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('crontab/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 14:05:17 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\WWW\\lts\\'
+    'PHP_SELF' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_NAME' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_FILENAME' => 'E:\\WWW\\lts\\yii'
+    'PATH_TRANSLATED' => 'E:\\WWW\\lts\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556172317.186
+    'REQUEST_TIME' => 1556172317
+    'argv' => [
+        0 => 'E:\\WWW\\lts\\yii'
+        1 => 'crontab/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 14:06:07 [-][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\console\Application::tfbmall in E:\WWW\lts\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 E:\WWW\lts\vendor\yiisoft\yii2\di\ServiceLocator.php(77): yii\base\Component->__get('tfbmall')
+#1 E:\WWW\lts\common\models\Crontab.php(35): yii\di\ServiceLocator->__get('tfbmall')
+#2 E:\WWW\lts\vendor\yiisoft\yii2\db\ActiveRecord.php(233): common\models\Crontab::getDb()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\db\ActiveRecord.php(191): yii\db\ActiveRecord::filterCondition(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\db\BaseActiveRecord.php(121): yii\db\ActiveRecord::findByCondition(Array)
+#5 E:\WWW\lts\console\controllers\CrontabController.php(23): yii\db\BaseActiveRecord::findAll(Array)
+#6 [internal function]: console\controllers\CrontabController->actionIndex()
+#7 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#10 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#11 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('crontab/index', Array)
+#12 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('crontab/index', Array)
+#13 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 E:\WWW\lts\yii(23): yii\base\Application->run()
+#15 {main}
+2019-04-25 14:06:07 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\WWW\\lts\\'
+    'PHP_SELF' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_NAME' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_FILENAME' => 'E:\\WWW\\lts\\yii'
+    'PATH_TRANSLATED' => 'E:\\WWW\\lts\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556172367.1081
+    'REQUEST_TIME' => 1556172367
+    'argv' => [
+        0 => 'E:\\WWW\\lts\\yii'
+        1 => 'crontab/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 14:09:13 [-][-][-][error][Exception] Exception: 格式校验失败: 0 23 in E:\WWW\lts\common\models\Crontab.php:70
+Stack trace:
+#0 E:\WWW\lts\console\controllers\CrontabController.php(71): common\models\Crontab->getNextRunDate()
+#1 E:\WWW\lts\console\controllers\CrontabController.php(41): console\controllers\CrontabController->executeTask(Array)
+#2 [internal function]: console\controllers\CrontabController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('crontab/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('crontab/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 14:09:12 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\WWW\\lts\\'
+    'PHP_SELF' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_NAME' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_FILENAME' => 'E:\\WWW\\lts\\yii'
+    'PATH_TRANSLATED' => 'E:\\WWW\\lts\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556172552.0061
+    'REQUEST_TIME' => 1556172552
+    'argv' => [
+        0 => 'E:\\WWW\\lts\\yii'
+        1 => 'crontab/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 14:11:21 [-][-][-][error][Exception] Exception: 格式校验失败: 0 23 in E:\WWW\lts\common\models\Crontab.php:70
+Stack trace:
+#0 E:\WWW\lts\console\controllers\CrontabController.php(71): common\models\Crontab->getNextRunDate()
+#1 E:\WWW\lts\console\controllers\CrontabController.php(41): console\controllers\CrontabController->executeTask(Array)
+#2 [internal function]: console\controllers\CrontabController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('crontab/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('crontab/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 14:11:20 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'D:\\Program Files\\Git'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'C:\\Users\\Administrator'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'HOSTNAME' => 'jr'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'zh_CN.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'ORIGINAL_PATH' => 'D:\\Program Files\\Git\\mingw64\\bin;D:\\Program Files\\Git\\usr\\bin;C:\\Users\\Administrator\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\Administrator\\bin;D:\\Program Files\\Git\\mingw64\\bin;D:\\Program Files\\Git\\usr\\local\\bin;D:\\Program Files\\Git\\usr\\bin;D:\\Program Files\\Git\\usr\\bin;D:\\Program Files\\Git\\mingw64\\bin;D:\\Program Files\\Git\\usr\\bin;C:\\Users\\Administrator\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm;D:\\Program Files\\Git\\usr\\bin\\vendor_perl;D:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/WWW/lts'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'D:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'WINDIR' => 'C:\\WINDOWS'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556172679.9802
+    'REQUEST_TIME' => 1556172679
+    'argv' => [
+        0 => 'yii'
+        1 => 'crontab/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 14:12:29 [-][-][-][error][Exception] Exception: 格式校验失败: 0 23 in E:\WWW\lts\common\models\Crontab.php:70
+Stack trace:
+#0 E:\WWW\lts\console\controllers\CrontabController.php(71): common\models\Crontab->getNextRunDate()
+#1 E:\WWW\lts\console\controllers\CrontabController.php(41): console\controllers\CrontabController->executeTask(Array)
+#2 [internal function]: console\controllers\CrontabController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('crontab/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('crontab/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 14:12:28 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'D:\\Program Files\\Git'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'C:\\Users\\Administrator'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'HOSTNAME' => 'jr'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'C.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'ORIGINAL_PATH' => 'D:\\Program Files\\Git\\mingw64\\bin;D:\\Program Files\\Git\\usr\\bin;C:\\Users\\Administrator\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\Administrator\\bin;D:\\Program Files\\Git\\mingw64\\bin;D:\\Program Files\\Git\\usr\\local\\bin;D:\\Program Files\\Git\\usr\\bin;D:\\Program Files\\Git\\usr\\bin;D:\\Program Files\\Git\\mingw64\\bin;D:\\Program Files\\Git\\usr\\bin;C:\\Users\\Administrator\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm;D:\\Program Files\\Git\\usr\\bin\\vendor_perl;D:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/WWW/lts'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'D:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'WINDIR' => 'C:\\WINDOWS'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556172748.5402
+    'REQUEST_TIME' => 1556172748
+    'argv' => [
+        0 => 'yii'
+        1 => 'crontab/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 14:12:55 [-][-][-][error][Exception] Exception: 格式校验失败: 0 23 in E:\WWW\lts\common\models\Crontab.php:70
+Stack trace:
+#0 E:\WWW\lts\console\controllers\CrontabController.php(71): common\models\Crontab->getNextRunDate()
+#1 E:\WWW\lts\console\controllers\CrontabController.php(41): console\controllers\CrontabController->executeTask(Array)
+#2 [internal function]: console\controllers\CrontabController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('crontab/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('crontab/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 14:12:54 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'D:\\Program Files\\Git'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'C:\\Users\\Administrator'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'HOSTNAME' => 'jr'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'C.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'ORIGINAL_PATH' => 'D:\\Program Files\\Git\\mingw64\\bin;D:\\Program Files\\Git\\usr\\bin;C:\\Users\\Administrator\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\Administrator\\bin;D:\\Program Files\\Git\\mingw64\\bin;D:\\Program Files\\Git\\usr\\local\\bin;D:\\Program Files\\Git\\usr\\bin;D:\\Program Files\\Git\\usr\\bin;D:\\Program Files\\Git\\mingw64\\bin;D:\\Program Files\\Git\\usr\\bin;C:\\Users\\Administrator\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm;D:\\Program Files\\Git\\usr\\bin\\vendor_perl;D:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/WWW/lts'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'D:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'WINDIR' => 'C:\\WINDOWS'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556172774.5983
+    'REQUEST_TIME' => 1556172774
+    'argv' => [
+        0 => 'yii'
+        1 => 'crontab/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 14:13:26 [-][-][-][error][Exception] Exception: 格式校验失败: 0 23 in E:\WWW\lts\common\models\Crontab.php:70
+Stack trace:
+#0 E:\WWW\lts\console\controllers\CrontabController.php(71): common\models\Crontab->getNextRunDate()
+#1 E:\WWW\lts\console\controllers\CrontabController.php(41): console\controllers\CrontabController->executeTask(Array)
+#2 [internal function]: console\controllers\CrontabController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('crontab/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('crontab/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 14:13:25 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'D:\\Program Files\\Git'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'C:\\Users\\Administrator'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'HOSTNAME' => 'jr'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'zh_CN.UTF-8@cjknarrow'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'ORIGINAL_PATH' => 'D:\\Program Files\\Git\\mingw64\\bin;D:\\Program Files\\Git\\usr\\bin;C:\\Users\\Administrator\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\Administrator\\bin;D:\\Program Files\\Git\\mingw64\\bin;D:\\Program Files\\Git\\usr\\local\\bin;D:\\Program Files\\Git\\usr\\bin;D:\\Program Files\\Git\\usr\\bin;D:\\Program Files\\Git\\mingw64\\bin;D:\\Program Files\\Git\\usr\\bin;C:\\Users\\Administrator\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm;D:\\Program Files\\Git\\usr\\bin\\vendor_perl;D:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/WWW/lts'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'D:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'WINDIR' => 'C:\\WINDOWS'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556172805.1259
+    'REQUEST_TIME' => 1556172805
+    'argv' => [
+        0 => 'yii'
+        1 => 'crontab/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 14:15:38 [-][-][-][error][Exception] Exception: 格式校验失败: 0 23 in E:\WWW\lts\common\models\Crontab.php:70
+Stack trace:
+#0 E:\WWW\lts\console\controllers\CrontabController.php(71): common\models\Crontab->getNextRunDate()
+#1 E:\WWW\lts\console\controllers\CrontabController.php(41): console\controllers\CrontabController->executeTask(Array)
+#2 [internal function]: console\controllers\CrontabController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('crontab/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('crontab/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 14:15:37 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\WWW\\lts\\'
+    'PHP_SELF' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_NAME' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_FILENAME' => 'E:\\WWW\\lts\\yii'
+    'PATH_TRANSLATED' => 'E:\\WWW\\lts\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556172937.4426
+    'REQUEST_TIME' => 1556172937
+    'argv' => [
+        0 => 'E:\\WWW\\lts\\yii'
+        1 => 'crontab/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 14:16:24 [-][-][-][error][Exception] Exception: 格式校验失败: 0 23 in E:\WWW\lts\common\models\Crontab.php:70
+Stack trace:
+#0 E:\WWW\lts\console\controllers\CrontabController.php(71): common\models\Crontab->getNextRunDate()
+#1 E:\WWW\lts\console\controllers\CrontabController.php(41): console\controllers\CrontabController->executeTask(Array)
+#2 [internal function]: console\controllers\CrontabController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('crontab/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('crontab/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 14:16:23 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\WWW\\lts\\'
+    'PHP_SELF' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_NAME' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_FILENAME' => 'E:\\WWW\\lts\\yii'
+    'PATH_TRANSLATED' => 'E:\\WWW\\lts\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556172983.7733
+    'REQUEST_TIME' => 1556172983
+    'argv' => [
+        0 => 'E:\\WWW\\lts\\yii'
+        1 => 'crontab/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 14:23:11 [-][-][-][error][Exception] Exception: 格式校验失败: 0 23 in E:\WWW\lts\common\models\Crontab.php:70
+Stack trace:
+#0 E:\WWW\lts\console\controllers\CrontabController.php(71): common\models\Crontab->getNextRunDate()
+#1 E:\WWW\lts\console\controllers\CrontabController.php(41): console\controllers\CrontabController->executeTask(Array)
+#2 [internal function]: console\controllers\CrontabController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('crontab/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('crontab/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 14:23:10 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\WWW\\lts\\'
+    'PHP_SELF' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_NAME' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_FILENAME' => 'E:\\WWW\\lts\\yii'
+    'PATH_TRANSLATED' => 'E:\\WWW\\lts\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556173390.1379
+    'REQUEST_TIME' => 1556173390
+    'argv' => [
+        0 => 'E:\\WWW\\lts\\yii'
+        1 => 'crontab/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 14:39:14 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Array to string conversion in E:\WWW\lts\console\controllers\CrontabController.php:51
+Stack trace:
+#0 E:\WWW\lts\console\controllers\CrontabController.php(51): yii\base\ErrorHandler->handleError(8, 'Array to string...', 'E:\\WWW\\lts\\cons...', 51, Array)
+#1 E:\WWW\lts\console\controllers\CrontabController.php(40): console\controllers\CrontabController->executeTask(Array)
+#2 [internal function]: console\controllers\CrontabController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('crontab/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('crontab/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 14:39:14 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\WWW\\lts\\'
+    'PHP_SELF' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_NAME' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_FILENAME' => 'E:\\WWW\\lts\\yii'
+    'PATH_TRANSLATED' => 'E:\\WWW\\lts\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556174354.6114
+    'REQUEST_TIME' => 1556174354
+    'argv' => [
+        0 => 'E:\\WWW\\lts\\yii'
+        1 => 'crontab/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 14:46:06 [-][-][-][error][Exception] Exception: 格式校验失败: 0 23 in E:\WWW\lts\common\models\Crontab.php:70
+Stack trace:
+#0 E:\WWW\lts\console\controllers\CrontabController.php(70): common\models\Crontab->getNextRunDate()
+#1 E:\WWW\lts\console\controllers\CrontabController.php(40): console\controllers\CrontabController->executeTask(Array)
+#2 [internal function]: console\controllers\CrontabController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('crontab/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('crontab/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 14:46:05 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556174765.0361
+    'REQUEST_TIME' => 1556174765
+    'argv' => [
+        0 => 'yii'
+        1 => 'crontab/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 14:50:20 [-][-][-][error][Exception] Exception: 格式校验失败: * * * * in E:\WWW\lts\common\models\Crontab.php:70
+Stack trace:
+#0 E:\WWW\lts\console\controllers\CrontabController.php(70): common\models\Crontab->getNextRunDate()
+#1 E:\WWW\lts\console\controllers\CrontabController.php(40): console\controllers\CrontabController->executeTask(Array)
+#2 [internal function]: console\controllers\CrontabController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('crontab/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('crontab/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 14:50:18 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556175018.2137
+    'REQUEST_TIME' => 1556175018
+    'argv' => [
+        0 => 'yii'
+        1 => 'crontab/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 14:51:43 [-][-][-][error][Exception] Exception: 格式校验失败: * * * * in E:\WWW\lts\common\models\Crontab.php:70
+Stack trace:
+#0 E:\WWW\lts\console\controllers\CrontabController.php(70): common\models\Crontab->getNextRunDate()
+#1 E:\WWW\lts\console\controllers\CrontabController.php(40): console\controllers\CrontabController->executeTask(Array)
+#2 [internal function]: console\controllers\CrontabController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('crontab/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('crontab/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 14:51:40 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'D:\\Program Files\\Git'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'C:\\Users\\Administrator'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'HOSTNAME' => 'jr'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'zh_CN.UTF-8@cjknarrow'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'ORIGINAL_PATH' => 'D:\\Program Files\\Git\\mingw64\\bin;D:\\Program Files\\Git\\usr\\bin;C:\\Users\\Administrator\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\Administrator\\bin;D:\\Program Files\\Git\\mingw64\\bin;D:\\Program Files\\Git\\usr\\local\\bin;D:\\Program Files\\Git\\usr\\bin;D:\\Program Files\\Git\\usr\\bin;D:\\Program Files\\Git\\mingw64\\bin;D:\\Program Files\\Git\\usr\\bin;C:\\Users\\Administrator\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm;D:\\Program Files\\Git\\usr\\bin\\vendor_perl;D:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/WWW/lts'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'D:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'WINDIR' => 'C:\\WINDOWS'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556175100.9084
+    'REQUEST_TIME' => 1556175100
+    'argv' => [
+        0 => 'yii'
+        1 => 'crontab/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 14:54:41 [-][-][-][error][Exception] Exception: 格式校验失败: * * * * in E:\WWW\lts\common\models\Crontab.php:70
+Stack trace:
+#0 E:\WWW\lts\console\controllers\CrontabController.php(70): common\models\Crontab->getNextRunDate()
+#1 E:\WWW\lts\console\controllers\CrontabController.php(40): console\controllers\CrontabController->executeTask(Array)
+#2 [internal function]: console\controllers\CrontabController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('crontab/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('crontab/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 14:54:39 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556175279.461
+    'REQUEST_TIME' => 1556175279
+    'argv' => [
+        0 => 'yii'
+        1 => 'crontab/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 15:58:26 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: file_put_contents() expects at least 2 parameters, 1 given in E:\WWW\lts\console\controllers\TestController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', 'E:\\WWW\\lts\\cons...', 16, Array)
+#1 E:\WWW\lts\console\controllers\TestController.php(16): file_put_contents('/376txt')
+#2 [internal function]: console\controllers\TestController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('test/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('test/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 15:58:25 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556179105.6156
+    'REQUEST_TIME' => 1556179105
+    'argv' => [
+        0 => 'yii'
+        1 => 'test/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 16:07:07 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: file_put_contents(/static/uploads/file/15561796277491_.txt): failed to open stream: No such file or directory in E:\WWW\lts\console\controllers\TestController.php:17
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', 'E:\\WWW\\lts\\cons...', 17, Array)
+#1 E:\WWW\lts\console\controllers\TestController.php(17): file_put_contents('/static/uploads...', '123')
+#2 [internal function]: console\controllers\TestController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('test/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('test/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 16:07:06 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556179626.6454
+    'REQUEST_TIME' => 1556179626
+    'argv' => [
+        0 => 'yii'
+        1 => 'test/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 16:07:09 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: file_put_contents(/static/uploads/file/15561796297799_.txt): failed to open stream: No such file or directory in E:\WWW\lts\console\controllers\TestController.php:17
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', 'E:\\WWW\\lts\\cons...', 17, Array)
+#1 E:\WWW\lts\console\controllers\TestController.php(17): file_put_contents('/static/uploads...', '123')
+#2 [internal function]: console\controllers\TestController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('test/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('test/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 16:07:08 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556179628.2855
+    'REQUEST_TIME' => 1556179628
+    'argv' => [
+        0 => 'yii'
+        1 => 'test/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 16:08:33 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: file_put_contents(/static/uploads/file/15561797131807_.txt): failed to open stream: No such file or directory in E:\WWW\lts\console\controllers\TestController.php:17
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', 'E:\\WWW\\lts\\cons...', 17, Array)
+#1 E:\WWW\lts\console\controllers\TestController.php(17): file_put_contents('/static/uploads...', '123')
+#2 [internal function]: console\controllers\TestController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('test/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('test/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 16:08:32 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556179712.8064
+    'REQUEST_TIME' => 1556179712
+    'argv' => [
+        0 => 'yii'
+        1 => 'test/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 16:13:00 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: file_put_contents(E:\WWW\lts\console/static/15561799807930_.txt): failed to open stream: No such file or directory in E:\WWW\lts\console\controllers\TestController.php:19
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', 'E:\\WWW\\lts\\cons...', 19, Array)
+#1 E:\WWW\lts\console\controllers\TestController.php(19): file_put_contents('E:\\WWW\\lts\\cons...', '123')
+#2 [internal function]: console\controllers\TestController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('test/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('test/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 16:12:59 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556179979.4922
+    'REQUEST_TIME' => 1556179979
+    'argv' => [
+        0 => 'yii'
+        1 => 'test/index'
+    ]
+    'argc' => 2
+]
+2019-04-25 16:13:54 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: file_put_contents(E:\WWW\lts\console\static\/15561800341470_.txt): failed to open stream: No such file or directory in E:\WWW\lts\console\controllers\TestController.php:19
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', 'E:\\WWW\\lts\\cons...', 19, Array)
+#1 E:\WWW\lts\console\controllers\TestController.php(19): file_put_contents('E:\\WWW\\lts\\cons...', '123')
+#2 [internal function]: console\controllers\TestController->actionIndex()
+#3 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('test/index', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('test/index', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 E:\WWW\lts\yii(23): yii\base\Application->run()
+#11 {main}
+2019-04-25 16:13:53 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556180033.7592
+    'REQUEST_TIME' => 1556180033
+    'argv' => [
+        0 => 'yii'
+        1 => 'test/index'
+    ]
+    'argc' => 2
+]
+2019-04-30 18:00:28 [-][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: You should configure "log" component to use one or more database targets before executing this migration. in E:\WWW\lts\vendor\yiisoft\yii2\log\migrations\m141106_185632_log_init.php:54
+Stack trace:
+#0 E:\WWW\lts\vendor\yiisoft\yii2\log\migrations\m141106_185632_log_init.php(63): m141106_185632_log_init->getDbTargets()
+#1 E:\WWW\lts\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m141106_185632_log_init->up()
+#2 E:\WWW\lts\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m141106_185632_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 E:\WWW\lts\yii(23): yii\base\Application->run()
+#12 {main}
+2019-04-30 18:00:16 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\WWW\\lts\\'
+    'PHP_SELF' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_NAME' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_FILENAME' => 'E:\\WWW\\lts\\yii'
+    'PATH_TRANSLATED' => 'E:\\WWW\\lts\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556618416.8148
+    'REQUEST_TIME' => 1556618416
+    'argv' => [
+        0 => 'E:\\WWW\\lts\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/log/migrations'
+    ]
+    'argc' => 3
+]
+2019-04-30 18:01:46 [-][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: You should configure "log" component to use one or more database targets before executing this migration. in E:\WWW\lts\vendor\yiisoft\yii2\log\migrations\m141106_185632_log_init.php:54
+Stack trace:
+#0 E:\WWW\lts\vendor\yiisoft\yii2\log\migrations\m141106_185632_log_init.php(63): m141106_185632_log_init->getDbTargets()
+#1 E:\WWW\lts\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m141106_185632_log_init->up()
+#2 E:\WWW\lts\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m141106_185632_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 E:\WWW\lts\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 E:\WWW\lts\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 E:\WWW\lts\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#7 E:\WWW\lts\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#8 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 E:\WWW\lts\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 E:\WWW\lts\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 E:\WWW\lts\yii(23): yii\base\Application->run()
+#12 {main}
+2019-04-30 18:01:43 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANDROID_SDK_HOME' => 'C:\\Android'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'APR_ICONV_PATH' => 'D:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Git\\cmd;D:\\wamp64\\bin\\php\\php7.0.33;E:\\phpStudy\\PHPTutorial\\MySQL\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;C:\\composer;D:\\Program Files\\nodejs\\;C:\\Android;C:\\Windows\\System32;D:\\Program Files (x86)\\Subversion\\bin;D:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JR'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'E:\\WWW\\lts\\'
+    'PHP_SELF' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_NAME' => 'E:\\WWW\\lts\\yii'
+    'SCRIPT_FILENAME' => 'E:\\WWW\\lts\\yii'
+    'PATH_TRANSLATED' => 'E:\\WWW\\lts\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556618503.6018
+    'REQUEST_TIME' => 1556618503
+    'argv' => [
+        0 => 'E:\\WWW\\lts\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/log/migrations'
+    ]
+    'argc' => 3
+]
